@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  padding: 7% 0;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(
+    191.19deg,
+    rgba(222, 139, 57, 0.13) 27%,
+    rgba(16, 26, 105, 0.13) 58%
+  );
+}
+
+.Container {
+  padding: 2%;
+  display: flex;
+  margin: 0% 7%;
+  width: 86%;
+  gap: 2%;
+  height: auto;
+}
+
+.Image {
+  width: 50%;
+  height: auto;
+}
+
+.Image img {
+  width: 100%;
+  height: auto;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.Contibution {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Contibution > :nth-child(1) {
+  flex: 1;
+}
+.Contibution > :nth-child(2) {
+  flex: 3;
+}
+.Contibution > :nth-child(3) {
+  flex: 3;
+}
+.Contibution > :nth-child(4) {
+  flex: 3;
+}
+
+.Contibution h2 {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #43c61c;
+  font-size: 2.8vw;
+}
+
+.Para1 p {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.5vw;
+  line-height: 1.4em;
+}
+.Para2 p {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.5vw;
+  line-height: 1.4em;
+}
+.Para3 p {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.5vw;
+  line-height: 1.4em;
+}
+
+@media (max-width: 768px) and (min-width: 320px) {
+  .Container {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    margin: 0;
+  }
+
+  .Image {
+    width: 90vw;
+    height: auto;
+  }
+
+  .Image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .Contibution {
+    width: 90vw;
+    height: auto;
+    margin-top: 4%;
+  }
+
+  .Contibution h2 {
+    margin: 0 0 3% 0;
+    font-size: 3vw;
+    font-weight: 600;
+  }
+
+  .Para1 p {
+    margin: 0 0 3% 0;
+    font-size: 1.9vw;
+    font-weight: 400;
+  }
+  .Para2 p {
+    margin: 0 0 3% 0;
+    font-size: 1.9vw;
+    font-weight: 400;
+  }
+  .Para3 p {
+    font-size: 2vw;
+    font-weight: 600;
+  }
+}

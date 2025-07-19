@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*! STYLING FOR MAIN HEADER AND NAVBAR  */
+
+.background {
+  position: relative;
+  top: 0%;
+  height: auto;
+  width: 100%;
+}
+
+.linearGradient {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: auto;
+  width: 50%;
+}
+
+.logoContainer {
+  width: 48vw;
+  height: auto;
+  position: absolute;
+  right: 0%;
+  top: 0vh;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  height: auto;
+  width: 50%;
+  padding: 5% 0%;
+}
+
+/*! STYLING FOR NAVITEMS IS HERE  */
+
+.navItems {
+  background-color: #103e35;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: end;
+  margin-top: 1.75%;
+}
+
+.ulContainer {
+  width: 45vw;
+  height: 9vh;
+  display: flex;
+  justify-content: center;
+}
+
+.ulofNaivItems {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5%;
+}
+
+.ulofNaivItems > li a {
+  list-style-type: none;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.3vw;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: inherit;
+}
